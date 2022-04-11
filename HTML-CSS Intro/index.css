@@ -18,6 +18,27 @@ p {
   margin-bottom: 20px;
 }
 
+
+.bluewrapper {
+  display: flex;
+  height: 20px;
+  background-color: blue;
+}
+
+.greenwrapper {
+  display: flex;
+  height: 20px;
+  background-color: green;
+}
+
+.wrapper8 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
 /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
 
 .redExample {
@@ -40,8 +61,120 @@ p {
   flex-direction: row-reverse;
 }
 
+.emptyExample1 {
+  display: flex;
+  flex: 1;
+}
+
 .blueExample2 {
   width: 80px;
+  background-color: blue;
+}
+
+.orangeexample {
+  width: 80px;
+  background-color: orange;
+}
+
+.redExample2 {
+  width: 80px;
+  background-color: red;
+}
+
+.blueexample {
+  background-color: blue;
+  height: 10px;
+}
+
+.greenexample {
+  background-color: green;
+  height: 20px;
+}
+
+.wrapper2 {
+  display: flex;
+  height: 60px;
+  background-color: red;
+  margin-bottom: 20px;
+  flex-direction: row-reverse;
+}
+
+.wrapper3 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper9 {
+  display: flex;
+  height: 60px;
+  background-color: orange;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.greenl {
+  width: 20px;
+  background-color: green;
+}
+
+.wrapper4 {
+  display: flex;
+  height: 60px;
+  background-color: red;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bluestretch {
+  display: flex;
+  height: 20px;
+  background-color: blue;
+}
+
+.greenstretch {
+  display: flex;
+  height: 20px;
+  background-color: green;
+}
+
+.redExample3 {
+  height: 60px;
+  width: 80px;
+  background-color: red;
+}
+
+.redExample4 {
+  width: 80px;
+  background-color: red;
+}
+
+.wrapper7 {
+  display: flex;
+  height: 60px;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.redcenter {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+.bluecenter {
+  width: 80px;
+  height: 60px;
+  background-color: blue;
+}
+
+.blueline {
+  width: 120px;
+  height: 20px;
   background-color: blue;
 }
 

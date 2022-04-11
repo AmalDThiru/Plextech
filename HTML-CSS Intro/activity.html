@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="description" content="Free Web tutorials for HTML and CSS">
-        <meta name="author" content="John Doe">
-        <title>A Meaningful Page Title</title>
+        <meta name="description" content="This is my first proper webpage - Amal">
+        <meta name="author" content="Amal Thiru">
+        <title>CSK</title>
+        <link rel="icon" type="image/x-icon" href="./images/csk.png">
+        <link id="mystylesheet" rel="stylesheet" href="./activity-light.css">
     </head>
     <body>
-        
+        <!-- <h1>First Website</h1>
+        <div class="side">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1"></div>
+            <div class="flexbox-item flexbox-item-2"></div>
+            <div class="flexbox-item flexbox-item-3"></div>  
+            -->
+            
+            <div class="wrapper">
+                <header id="head" class="header">Header
+                    <button class="light" onclick="swap('./activity-light.css')">Light Mode</button>
+                    <button class="dark" onclick="swap('./activity-dark.css')">Dark Mode</button>
+                </header>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#">About</a></li> 
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <article class="main">
+                  <p>This is my first website!</p>  
+                  <img src="./images/csk3.jpeg" alt="CSK" style="width:300px;height:300px;">
+                  <img src="./images/csk4.jpeg" alt="CSK" style="width:300px;height:300px;">
+                  <img src="./images/csk5.webp" alt="CSK" style="width:300px;height:300px;">
+                </article>
+                <aside class="aside aside-1">Aside 1
+                    <img src="./images/csk2.jpeg" alt="CSK">
+                    <p>4 IPL trophies!</p>
+                    <p>10 times finalists</p>    
+                </aside>
+                <footer class="footer">Footer</footer>
+              </div>
+
+              <script type="text/javascript">
+                function swap(sheet){
+                    document.getElementById('mystylesheet').href = sheet
+                }
+              </script>
     </body>
 </html>
